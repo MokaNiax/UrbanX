@@ -1,4 +1,6 @@
-local root = script.Parent.Parent
+local replicatedStorage = game:GetService("ReplicatedStorage")
+
+local root = replicatedStorage:WaitForChild("UrbanX")
 local changeStats = require(root.modules.changeStats)
 
 changeStats:add(player, valueName, valueToAdd) -- Used to do a addition to the value.
