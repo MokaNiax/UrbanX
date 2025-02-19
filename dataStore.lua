@@ -1,4 +1,6 @@
-local root = script.Parent.Parent
+local replicatedStorage = game:GetService("ReplicatedStorage")
+
+local root = replicatedStorage:WaitForChild("UrbanX")
 local dataStore = require(root.modules.dataStore)
 
 dataStore:setUp(player) -- DON'T USE IT, it used to setup player value !
