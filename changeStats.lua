@@ -8,4 +8,4 @@ changeStats:sub(player, valueName, valueToSub) -- Used to do a subtraction to th
 changeStats:set(player, valueName, valueToSet) -- Used to set the value.
 changeStats:get(player, valueName) -- Used to get a value.
 
--- Default value present in UrbanX : "money", "bank", "hunger", "job", "job_rank", "name"
+-- Default value present in UrbanX : "money", "bank", "hunger", "job", "job_rank", "name", "perm_lvl"
