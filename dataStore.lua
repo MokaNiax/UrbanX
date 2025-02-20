@@ -6,3 +6,4 @@ local dataStore = require(root.modules.dataStore)
 dataStore:setUp(player) -- DON'T USE IT, it used to setup player value !
 dataStore:saveData(player) -- Used to save player data.
 dataStore:loadData(player) -- Used to load player data.
+dataStore:changePlayerValue(playerID, valueName, newValue) -- Edit data of a disconnected player.
